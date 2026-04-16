@@ -16,7 +16,7 @@
   ],
   "rewrites": [
     {
-      "source": "/(?!app-debug.apk|index.html|styles.css|privacypolicy.html|.*\\.png|.*\\.jpg|.*\\.svg|.*\\.ico).*",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
